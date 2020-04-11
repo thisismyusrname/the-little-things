@@ -2,9 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 import SEO from "../components/seo"
 import '../components/index.css';
+import Header from '../components/Header.js'
 
 const IndexPage = () => (
   <div>
+    <Header />
     <div className="LandingView">
       <div className="LandingContent">
        <h1>The Little Things</h1>
