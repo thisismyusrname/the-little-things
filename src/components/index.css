@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
 
 body {
@@ -12,9 +11,9 @@ body {
 
 a {
   color: #000;
-  font-family: sans-serif;
+  font-family: 'Work Sans', sans-serif;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .LandingView {
@@ -24,9 +23,9 @@ a {
 
 .LandingContent {
   margin: 0 auto 0 auto;
-  max-width: 600px;
+  max-width: 700px;
   text-align: center;
-  padding: 175px 50px;
+  padding: 150px 50px 30px 50px;
 }
 
 .LandingContent h1 {
@@ -36,13 +35,26 @@ a {
   line-height: 1.2;
 }
 
-.LandingContent a{
+.LandingContent button{
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #000000;
-  text-transform: uppercase;
   background: #ffffff;
   padding: 12px 20px;
   border: 1px solid #000000;
+  outline: none;
+  cursor: pointer;
+}
+
+.HeroImage img{
+  padding: 50px 50px;
+}
+
+@media (max-width:720px) {
+  .LandingContent {
+    padding: 130px 50px;
+  }
+  
 }
 

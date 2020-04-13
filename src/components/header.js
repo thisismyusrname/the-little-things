@@ -9,8 +9,7 @@ const Header = ({ siteTitle }) => (
   <div className="Header">
     <div className="HeaderGroup">
 {/* These link to the different places in the app*/}
-      <Link to="/package">Package</Link>
-      <Link to="/categories">Categories</Link>
+      <Link to="/rentals">Rentals</Link>
       <Link to="/gallery">Gallery</Link>
       <Link to="/home"><img src={logo} width="360" /></Link>
       <Link to="/about">About</Link>
